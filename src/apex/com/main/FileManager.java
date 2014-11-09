@@ -166,7 +166,7 @@ public class FileManager {
     }
     
     if (!model.methods.isEmpty()) {
-      contents += "<h2 class='section-title methods'>Methods</h2>";
+      contents += "<h2 class='section-title methods'>Methods ("+model.methods.size()+")</h2>";
       for (MethodModel method : model.methods) {
         String name = method.getName();
         method.addLinks();
