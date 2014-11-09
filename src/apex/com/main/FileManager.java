@@ -147,7 +147,7 @@ public class FileManager {
     
     if (!model.properties.isEmpty()) {
       contents += "<p></p>" +
-        "<h2 class='trigger'>" + TOGGLE_ONE + "&nbsp;&nbsp;<a href='#'>Properties</a></h2>" +
+        "<h2 class='trigger'>" + TOGGLE_ONE + "&nbsp;&nbsp;<a href='#'>Properties ("+model.properties.size()+")</a></h2>" +
         "<div class='toggle_container'> " +
           "<table class='properties' border='1' rules='all' cellpadding='6'> ";
       
